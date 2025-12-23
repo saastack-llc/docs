@@ -21,7 +21,7 @@
           {
             "group": "Getting started",
             "pages": [
-              "alteye/introduction",
+              "index",
               "alteye/getting-started",
               "alteye/dashboard-tour",
               "alteye/navigation",
