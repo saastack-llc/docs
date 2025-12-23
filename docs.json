@@ -1,13 +1,18 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "AltEye",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#E67E22",
+    "light": "#F39C12",
+    "dark": "#D35400"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://docs.alteye.com"
+  },
   "navigation": {
     "tabs": [
       {
@@ -16,33 +21,34 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "alteye/introduction",
+              "alteye/getting-started",
+              "alteye/dashboard-tour",
+              "alteye/navigation",
+              "alteye/adding-server"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Managing Your Server",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "alteye/managing-kicks",
+              "alteye/whitelist-management"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Server Settings",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "alteye/server-settings/access",
+              "alteye/server-settings/protection",
+              "alteye/server-settings/notifications",
+              "alteye/server-settings/billing"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Account",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "alteye/billing",
+              "alteye/account-settings"
             ]
           }
         ]
@@ -68,36 +74,15 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "global": {}
   },
   "navbar": {
     "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://alteye.com/dashboard"
     }
   },
   "contextual": {
